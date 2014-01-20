@@ -1,0 +1,6 @@
+@mixin light-green-selection(){
+		&::selection {
+		background: #4AC7A4;
+		color: #FFF;
+	}
+}

@@ -1,0 +1,23 @@
+.b-carreer {
+	color: $black;
+
+	.b-title {
+		text-align: right;
+		margin: 16px 68px 0 0;
+
+		&::selection {
+			background: #E47155;
+			color: #fff;
+		}
+	}
+
+	.b-carreer-list {
+		font-family: Myriad Pro;
+		font-size: 16.13px;
+	}
+
+	.b-carreer-list_item {
+		margin: 16px 0 0 35px;
+		line-height: 17px
+	}
+}

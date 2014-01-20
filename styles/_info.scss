@@ -1,0 +1,35 @@
+.b-info {
+	font-family: Bicubik;
+	position: absolute;
+	top: 144px;
+	left: 183px;
+	z-index: 2;
+	text-transform: uppercase;
+	color: #8FB498;
+	@include transform(rotate(-20deg));
+}
+
+.b-info--age {
+	font-size: 22.58px;
+	position: absolute;
+	top: -99px;
+	left: 78px;
+	@include light-green-selection;
+}
+
+.b-info--date {
+	font-size: 11.29px;
+	position: absolute;
+	top: -54px;
+	left: 116px;
+	letter-spacing: 2.3px;
+	@include light-green-selection;
+}
+
+.b-info--position {
+	font-size: 19.35px;
+	text-align: right;
+	line-height: 23px;
+	@include light-green-selection;
+	color: $black;
+}

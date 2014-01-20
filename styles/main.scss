@@ -1,0 +1,18 @@
+@import "compass/css3";
+@import "blocks/*.png";
+
+$black: #231F20;
+
+@import "reset";
+
+@import "mixins";
+@import "blocks";
+@import "loader";
+@import "common";
+@import "content";
+
+@import "info";
+@import "skills";
+@import "carreer";
+
+@import "global";

@@ -1,0 +1,8 @@
+.b-content {
+	display: none;
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 1359px;
+	@include box-shadow(0 0 16px 0 #215A2B);
+}

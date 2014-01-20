@@ -1,0 +1,54 @@
+.b-blocks {
+	position: absolute;
+	display: block;
+}
+
+.b-blocks--title {
+	width: blocks-sprite-width(title);
+	height: blocks-sprite-height(title);
+	@include blocks-sprite(title);
+	top: 96px;
+	right: 38px;
+}
+
+.b-blocks--prof_skills {
+	top: 253px;
+	left: 32px;
+	width: blocks-sprite-width(prof_skills);
+	height: blocks-sprite-height(prof_skills);
+	@include blocks-sprite(prof_skills);
+}
+
+.b-blocks--carreer {
+	top: 699px;
+	left: 36px;
+	width: blocks-sprite-width(carreer);
+	height: blocks-sprite-height(carreer);
+	@include blocks-sprite(carreer);
+}
+
+.b-blocks--education {
+	width: blocks-sprite-width(education);
+	height: blocks-sprite-height(education);
+	@include blocks-sprite(education);
+}
+
+.b-blocks--personal {
+	width: blocks-sprite-width(personal);
+	height: blocks-sprite-height(personal);
+	@include blocks-sprite(personal);
+}
+
+.b-blocks--contacts {
+	width: blocks-sprite-width(contacts);
+	height: blocks-sprite-height(contacts);
+	@include blocks-sprite(contacts);
+}
+
+.b-blocks--qr {
+	bottom: 0;
+	left: 0;
+	width: blocks-sprite-width(qr);
+	height: blocks-sprite-height(qr);
+	@include blocks-sprite(qr);
+}

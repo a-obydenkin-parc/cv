@@ -1,0 +1,33 @@
+.b-title {
+	font-family: Bicubik;
+	font-size: 16.93px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2.3px;
+	color: #fff;
+}
+
+.b-text {
+
+}
+
+.b-text--white {
+	color: #fff;
+}
+
+.b-dots {
+	font-family: Myriad Pro;
+	font-size: 35.48px;
+	position: absolute;
+	top: 179px;
+	left: 7px;
+	z-index: 1;
+	color: #fff;
+	@include transform(rotate(18.2deg));
+	@include light-green-selection;
+	letter-spacing: 6.97px;
+}
+
+.b-paragraph {
+	margin-left: 40px;
+}
