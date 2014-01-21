@@ -28,21 +28,35 @@
 }
 
 .b-blocks--education {
+	bottom: 92px;
+	left: 239px;
 	width: blocks-sprite-width(education);
 	height: blocks-sprite-height(education);
 	@include blocks-sprite(education);
 }
 
 .b-blocks--personal {
+	right: 39px;
+	bottom: 247px;
 	width: blocks-sprite-width(personal);
 	height: blocks-sprite-height(personal);
 	@include blocks-sprite(personal);
 }
 
 .b-blocks--contacts {
+	right: 37px;
+	top: 406px;
 	width: blocks-sprite-width(contacts);
 	height: blocks-sprite-height(contacts);
 	@include blocks-sprite(contacts);
+}
+
+.b-blocks--watermark {
+	bottom: 30px;
+	right: 28px;
+	width: blocks-sprite-width(watermark);
+	height: blocks-sprite-height(watermark);
+	@include blocks-sprite(watermark);
 }
 
 .b-blocks--qr {

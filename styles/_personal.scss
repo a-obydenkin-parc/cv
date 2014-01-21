@@ -1,0 +1,29 @@
+.b-personal {
+
+	.b-title {
+		margin: 15px 0 0 66px;
+
+		&::selection {
+			background: #F79345;
+			color: #fff;
+		}
+	}
+
+	.b-personal-list {
+		font-family: 'Myriad Pro';
+		font-size: 17px;
+		margin: 21px 35px 0 0;
+		text-align: right;
+		color: $black;
+	}
+
+	.b-personal-list_item {
+		margin-bottom: 11px;
+		line-height: 18px;
+
+		&::selection {
+			background: #F79345;
+			color: #fff;
+		}
+	}
+}

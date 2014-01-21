@@ -1,0 +1,42 @@
+.b-education {
+	width: 488px;
+	.b-title {
+		text-align: right;
+		margin: 16px 68px 0 0;
+
+		&::selection {
+			background: #A2C8DC;
+			color: $black;
+		}
+	}
+
+	.b-education-list {
+		margin: 22px 0 0 58px;
+		color: #fff;
+	}
+
+	.b-education-list_item {
+		font-family: 'Myriad Pro';
+		font-size: 14px;
+		line-height: 15px;
+
+		&::selection {
+			background: #A2C8DC;
+			color: $black;
+		}
+	}
+
+	.b-list_item-title {
+
+		font-family: 'Bicubik';
+		font-size: 13px;
+		margin-left: -23px;
+		color: #404041;
+		text-transform: uppercase;
+
+		&::selection {
+			background: #A2C8DC;
+			color: $black;
+		}
+	}
+}

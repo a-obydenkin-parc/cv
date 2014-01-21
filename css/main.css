@@ -1,6 +1,6 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/blocks\/\*\.png}line{font-family:\0000390}}
-.blocks-sprite, .b-blocks--title, .b-blocks--prof_skills, .b-blocks--carreer, .b-blocks--education, .b-blocks--personal, .b-blocks--contacts, .b-blocks--qr {
-  background: url('../img/blocks-sc4be8baf2e.png') no-repeat;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/blocks\/\*\.png}line{font-family:\0000398}}
+.blocks-sprite, .b-blocks--title, .b-blocks--prof_skills, .b-blocks--carreer, .b-blocks--education, .b-blocks--personal, .b-blocks--contacts, .b-blocks--watermark, .b-blocks--qr {
+  background: url('../img/blocks-scf9d08c061.png') no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_reset\.scss}line{font-family:\000039}}
@@ -133,26 +133,41 @@ button::-moz-focus-inner {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000330}}
 .b-blocks--education {
+  bottom: 92px;
+  left: 239px;
   width: 497px;
   height: 182px;
   background-position: 0 -1948px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000338}}
 .b-blocks--personal {
+  right: 39px;
+  bottom: 247px;
   width: 263px;
   height: 261px;
   background-position: 0 -1385px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000346}}
 .b-blocks--contacts {
+  right: 37px;
+  top: 406px;
   width: 152px;
   height: 414px;
   background-position: 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000354}}
+.b-blocks--watermark {
+  bottom: 30px;
+  right: 28px;
+  width: 99px;
+  height: 96px;
+  background-position: 0 -2130px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_blocks\.scss}line{font-family:\0000362}}
 .b-blocks--qr {
   bottom: 0;
   left: 0;
@@ -375,6 +390,12 @@ button::-moz-focus-inner {
   margin-left: 40px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_common\.scss}line{font-family:\0000335}}
+.b-link {
+  color: #231f20;
+  text-decoration: none;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_content\.scss}line{font-family:\000031}}
 .b-content {
   display: none;
@@ -483,7 +504,7 @@ button::-moz-focus-inner {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_skills\.scss}line{font-family:\0000335}}
 .b-skills .b-skills-features_title:nth-of-type(3) {
-  margin: 16px 0 4px 68px;
+  margin: 16px 0 4px 127px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_skills\.scss}line{font-family:\0000339}}
 .b-skills .b-skills-features_title:nth-of-type(5) {
@@ -522,27 +543,156 @@ button::-moz-focus-inner {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\000031}}
 .b-carreer {
+  width: 644px;
   color: #231f20;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\000035}}
 .b-carreer .b-title {
   text-align: right;
-  margin: 16px 68px 0 0;
+  margin: 16px 195px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\000039}}
 .b-carreer .b-title::selection {
   background: #E47155;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\0000315}}
 .b-carreer .b-carreer-list {
   font-family: Myriad Pro;
   font-size: 16.13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\0000320}}
 .b-carreer .b-carreer-list_item {
   margin: 16px 0 0 35px;
-  line-height: 17px;
+  line-height: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_mixins\.scss}line{font-family:\000032}}
+.b-carreer .b-carreer-list_item::selection {
+  background: #4AC7A4;
+  color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\0000325}}
+.b-carreer .b-carreer-list_item:last-of-type {
+  margin-top: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_carreer\.scss}line{font-family:\0000330}}
+.b-carreer .b-text {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_mixins\.scss}line{font-family:\000032}}
+.b-carreer .b-text::selection {
+  background: #4AC7A4;
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\000031}}
+.b-education {
+  width: 488px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\000033}}
+.b-education .b-title {
+  text-align: right;
+  margin: 16px 68px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\000037}}
+.b-education .b-title::selection {
+  background: #A2C8DC;
+  color: #231f20;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\0000313}}
+.b-education .b-education-list {
+  margin: 22px 0 0 58px;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\0000318}}
+.b-education .b-education-list_item {
+  font-family: 'Myriad Pro';
+  font-size: 14px;
+  line-height: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\0000323}}
+.b-education .b-education-list_item::selection {
+  background: #A2C8DC;
+  color: #231f20;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\0000329}}
+.b-education .b-list_item-title {
+  font-family: 'Bicubik';
+  font-size: 13px;
+  margin-left: -23px;
+  color: #404041;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_education\.scss}line{font-family:\0000337}}
+.b-education .b-list_item-title::selection {
+  background: #A2C8DC;
+  color: #231f20;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_personal\.scss}line{font-family:\000033}}
+.b-personal .b-title {
+  margin: 15px 0 0 66px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_personal\.scss}line{font-family:\000036}}
+.b-personal .b-title::selection {
+  background: #F79345;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_personal\.scss}line{font-family:\0000312}}
+.b-personal .b-personal-list {
+  font-family: 'Myriad Pro';
+  font-size: 17px;
+  margin: 21px 35px 0 0;
+  text-align: right;
+  color: #231f20;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_personal\.scss}line{font-family:\0000320}}
+.b-personal .b-personal-list_item {
+  margin-bottom: 11px;
+  line-height: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_personal\.scss}line{font-family:\0000324}}
+.b-personal .b-personal-list_item::selection {
+  background: #F79345;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_contacts\.scss}line{font-family:\000031}}
+.b-contacts {
+  font-size: 11px;
+  font-family: 'Bicubik';
+  position: absolute;
+  text-transform: uppercase;
+  right: 140px;
+  bottom: 15px;
+  color: #231f20;
+  letter-spacing: 0.7px;
+  text-align: right;
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_contacts\.scss}line{font-family:\0000314}}
+.b-contacts_list {
+  width: 212px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_contacts\.scss}line{font-family:\0000318}}
+.b-contacts_list-item {
+  margin-bottom: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_mixins\.scss}line{font-family:\000032}}
+.b-contacts_list-item::selection {
+  background: #4AC7A4;
+  color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_mixins\.scss}line{font-family:\000032}}
+.b-contacts_list-item .b-link::selection {
+  background: #4AC7A4;
+  color: #FFF;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_global\.scss}line{font-family:\000033}}

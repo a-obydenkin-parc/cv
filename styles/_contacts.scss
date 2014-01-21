@@ -1,0 +1,25 @@
+.b-contacts {
+	font-size: 11px;
+	font-family: 'Bicubik';
+	position: absolute;
+	text-transform: uppercase;
+	right: 140px;
+	bottom: 15px;
+	color: $black;
+	letter-spacing: 0.7px;
+	text-align: right;
+	@include transform(rotate(18deg));
+}
+
+.b-contacts_list {
+	width: 212px;
+}
+
+.b-contacts_list-item {
+	margin-bottom: 7px;
+	@include light-green-selection;
+
+	.b-link {
+		@include light-green-selection;
+	}
+}
