@@ -28,18 +28,16 @@ define([
 			});
 		})
 		.done(function() {
-			// content.parallax({
-			// 	limitX: 1
-			// });
+			content.parallax();
 
-			// // Parallax hack for absolute-driven layout ;-)
-			// $('.layer').css({
-			// 	position: '',
-			// 	top: '',
-			// 	left: '',
-			// 	width: '',
-			// 	height: ''
-			// });
+			// Parallax hack for absolute-driven layout ;-)
+			$('.layer').css({
+				position: '',
+				top: '',
+				left: '',
+				width: '',
+				height: ''
+			});
 		});
 
 	// Lazy background image loading

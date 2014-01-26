@@ -1,6 +1,6 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/blocks\/\*\.png}line{font-family:\0000398}}
 .blocks-sprite, .b-blocks--title, .b-blocks--prof_skills, .b-blocks--carreer, .b-blocks--education, .b-blocks--personal, .b-blocks--contacts, .b-blocks--watermark, .b-blocks--qr {
-  background: url('../img/blocks-scf9d08c061.png') no-repeat;
+  background: url('../img/blocks-sf6087e21ae.png') no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_reset\.scss}line{font-family:\000039}}
@@ -144,7 +144,7 @@ button::-moz-focus-inner {
 .b-blocks--personal {
   right: 39px;
   bottom: 247px;
-  width: 263px;
+  width: 264px;
   height: 261px;
   background-position: 0 -1385px;
 }
@@ -476,11 +476,11 @@ button::-moz-focus-inner {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_skills\.scss}line{font-family:\0000311}}
 .b-skills .b-skills-features {
   margin: 30px 0 0 0;
-  -webkit-transform: rotate(-20deg);
-  -moz-transform: rotate(-20deg);
-  -ms-transform: rotate(-20deg);
-  -o-transform: rotate(-20deg);
-  transform: rotate(-20deg);
+  -webkit-transform: rotate(-21deg);
+  -moz-transform: rotate(-21deg);
+  -ms-transform: rotate(-21deg);
+  -o-transform: rotate(-21deg);
+  transform: rotate(-21deg);
   width: 360px;
   text-align: right;
 }
@@ -765,4 +765,34 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_global\.scss}line{font-family:\0000358}}
 .g-hidden {
   display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_shame\.scss}line{font-family:\000034}}
+.l-body--win .l-wrapper--webkit .b-skills .b-skills-features {
+  margin-top: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_shame\.scss}line{font-family:\000038}}
+.l-body--win .l-wrapper--webkit .b-skills .b-skills-features_title:first-of-type {
+  margin-left: 64px;
+  margin-top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_shame\.scss}line{font-family:\0000313}}
+.l-body--win .l-wrapper--webkit .b-skills .b-skills-features_title:nth-of-type(3) {
+  margin: 13px 0 0px 128px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_shame\.scss}line{font-family:\0000317}}
+.l-body--win .l-wrapper--webkit .b-skills .b-skills-features_title:nth-of-type(5) {
+  margin: 4px 0 0 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_shame\.scss}line{font-family:\0000321}}
+.l-body--win .l-wrapper--webkit .b-skills .b-skills-features_title:nth-of-type(7) {
+  margin: 0 0 0 -8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_shame\.scss}line{font-family:\0000325}}
+.l-body--win .l-wrapper--webkit .b-skills .b-skills-features_title:nth-of-type(9) {
+  margin: -1px 0 0 -46px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/wart\/webdev\/cv\/styles\/_shame\.scss}line{font-family:\0000331}}
+.l-body--win .l-wrapper--webkit .b-contacts .b-contacts_list-item {
+  margin-bottom: 3px;
 }

@@ -8,7 +8,7 @@ define(['jquery'], function() {
 		},
 
 		checkPlatform: function() {
-
+			
 		}
 	};
 
